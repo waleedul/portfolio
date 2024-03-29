@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>personal portfolio-website</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/cef9020d2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="hero">
+    <nav>
+       <img src="images/portfolio.png" class="logo">
+      <ul id="sidemenu">
+        <li><a href="#header">HOME</a></li>
+        <li><a href="#ABOUT">ABOUT</a></li>
+        <li><a href="#portfolioo">PORTFOLIO</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#contact">HIRE ME</a></li>
+        <i class="fa-solid fa-magnifying-glass" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="content">
+      <h1>Hello, my name is <span>Waleedul Haque</span></h1>
+      <p>This is my official portfolio website to showcase my all 
+        <br>skills and works.</p>
+      <a href="images/cv.pdf">DOWNLOAD CV</a>
+
+    </div>
+    <div class="images">
+      <img src="images/PPP.jpeg" class="PPP">
+      <img src="images/background2.jpg" class="background2">
+    </div>
+
+    </div>
+    <div id="ABOUT">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/top.jpeg">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am Waleedul Haque and I am an undergraduate student of Computer Science and Engineering. I am passionate about web development. I love to create beautiful and functional websites. I am also a graphic designer and I can do all types of work that you give If I am able to do.</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML</span><br>Advanced</li>
+                <li><span>CSS</span><br>Advanced</li>
+                <li><span>Python</span><br>Intermediate</li>
+                <li><span>JavaScript</span><br>Basic</li>
+                <li><span>PHP</span><br>Basic</li>
+                <li><span>MySQL</span><br>Basic</li>
+
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2024 - Present</span><br>UI/UX Designer</li>
+                <li><span>2023 - Present</span><br>Web Developer</li>
+                <li><span>2022 - 2023</span><br>Graphics Designer</li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2024 - Present</span><br>GLA University</li>
+                <li><span>2023 - Present</span><br>GLA University</li>
+                <li><span>2022 - 2023</span><br>Magadh University</li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+<!-- services -->
+<div id="services">
+  <div class="container">
+  <h1 class="sub-title">My Services</h1>
+  <div class="services-list">
+    <div>
+      <i class="fa-solid fa-code"></i>
+      <h2>Web Design</h2>
+      <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.</p>
+      <a href="#">Learn more</a>
+    </div>
+    <div>
+      <i class="fa-solid fa-image"></i>
+      <h2>Graphic Design</h2>
+      <p>Graphic design is the process of visual communication and problem-solving through the use of typography, photography and illustration.</p>
+      <a href="#">Learn more</a>
+    </div>
+    <div>
+      <i class="fa-solid fa-video"></i>
+      <h2>Video Editing</h2>
+      <p>Video editing is the process of creating videos.</p>
+      <a href="#">Learn more</a>
+    </div>
+
+  </div>
+  </div>
+  </div>
+  <!-- portfolio -->
+  <div id="portfolioo">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.jpeg">
+          <div class="layer">
+            <h2>bussiness website</h2>
+            <p>Its a website for a bussiness. visit it</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+
+          </div>
+
+        </div>
+        <div class="work">
+          <img src="images/work-2.jpg">
+          <div class="layer">
+            <h2>consultancy website</h2>
+            <p>Its a website for a bussiness. visit it</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+
+          </div>
+
+
+        </div>
+        <div class="work">
+          <img src="images/work-3.png">
+          <div class="layer">
+            <h2>graphic design</h2>
+            <p>Its graphic design for a bussiness. visit it</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+      <a href="#" class="btn">See more</a>
+
+  </div>
+  </div>
+
+  <!-- contact -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="coltact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> waleedulhaque3@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i> 0123456789</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/a2z_thing/saved/all-posts/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/waleedul-haque-535683217/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/waleedul"><i class="fa-brands fa-github"></i></a>
+
+          </div>
+
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" id="name" placeholder="Your Name">
+            <input type="email" name="Email" id="email" placeholder="Your Email">
+            <input type="password" name="password" id="password" placeholder="Your Password">
+            <textarea name="message" id="message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2022 Waleedul Haque. All rights reserved.</p>
+      </div>
+    </div>
+    
+  
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+
+  
+      }
+
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzUD1f5QO6qxmbznZuHe3o2OGwMREe6KYSS3hcvTqelhwVYhwGbGx3qJigk5LqlX5u4KQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+      })
+      form.reset()
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
